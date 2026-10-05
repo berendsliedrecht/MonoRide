@@ -4,6 +4,12 @@ MonoRide records your bike rides and shows how much of your city you have ridden
 
 The app talks to one external service, a single time: it downloads your city's street network from [OpenStreetMap](https://www.openstreetmap.org) through the Overpass API (overpass-api.de). The only thing sent is the city name you type. After that the app works fully offline and nothing ever leaves the phone.
 
+<p align="center">
+  <img src="docs/map.png" width="30%" alt="Map screen showing the full city street network with completion percentage in the header">
+  <img src="docs/rides.png" width="30%" alt="Rides list screen">
+  <img src="docs/data.png" width="30%" alt="Street data screen after downloading a city from OpenStreetMap">
+</p>
+
 ## Install
 
 Download the latest APK from the [releases page](../../releases) and sideload it,
